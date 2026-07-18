@@ -1,0 +1,13 @@
+# Editor/workspace config — not part of the app
+.claude/
+
+# Live SQLite database — auto-created on first run (contains the default
+# admin password hash and a generated cron_key; regenerated per install)
+data/uptime.db
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
